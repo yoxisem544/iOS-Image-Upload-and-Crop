@@ -1,0 +1,27 @@
+PODS:
+  - Cloudinary (1.0.12)
+  - MHVideoPhotoGallery (1.6.7):
+    - SDWebImage
+  - PEPhotoCropEditor (1.3.1)
+  - RSKImageCropper (1.1.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - UIImage+ImageCompress (0.0.1)
+
+DEPENDENCIES:
+  - Cloudinary
+  - MHVideoPhotoGallery
+  - PEPhotoCropEditor
+  - RSKImageCropper
+  - UIImage+ImageCompress
+
+SPEC CHECKSUMS:
+  Cloudinary: b9f023dbe33b0f55d0d783a5398cd23e491debe2
+  MHVideoPhotoGallery: d6433bc1ec2caf227ad960ee709500b23949bbb2
+  PEPhotoCropEditor: 613292fce009efd085e7aed975f1ebb3fec8bb7b
+  RSKImageCropper: e0aec953606f249bae1b897e8b6e3c57db80859a
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  UIImage+ImageCompress: 6b38489f38075d569d9f25d72af7ecf5c84c1057
+
+COCOAPODS: 0.36.1

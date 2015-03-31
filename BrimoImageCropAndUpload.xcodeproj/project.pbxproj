@@ -12,7 +12,11 @@
 		632600061AC82D010094A67C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632600051AC82D010094A67C /* Images.xcassets */; };
 		632600091AC82D010094A67C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632600071AC82D010094A67C /* LaunchScreen.xib */; };
 		632600151AC82D010094A67C /* BrimoImageCropAndUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632600141AC82D010094A67C /* BrimoImageCropAndUploadTests.swift */; };
+		6326001F1AC83A990094A67C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6326001E1AC83A990094A67C /* 1.png */; };
+		632600251AC840070094A67C /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 632600241AC840070094A67C /* test.m */; };
+		632600271AC90A250094A67C /* tim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 632600261AC90A250094A67C /* tim.jpg */; };
 		6326FFFF1AC82D010094A67C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326FFFE1AC82D010094A67C /* AppDelegate.swift */; };
+		F92EEA6D5AC4ACD072961047 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E8071C639F57089F855958 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35E8071C639F57089F855958 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		632600001AC82D010094A67C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		632600031AC82D010094A67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		632600051AC82D010094A67C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -33,9 +38,16 @@
 		6326000E1AC82D010094A67C /* BrimoImageCropAndUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrimoImageCropAndUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632600131AC82D010094A67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632600141AC82D010094A67C /* BrimoImageCropAndUploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrimoImageCropAndUploadTests.swift; sourceTree = "<group>"; };
+		6326001E1AC83A990094A67C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		632600221AC840060094A67C /* BrimoImageCropAndUpload-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrimoImageCropAndUpload-Bridging-Header.h"; sourceTree = "<group>"; };
+		632600231AC840070094A67C /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		632600241AC840070094A67C /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		632600261AC90A250094A67C /* tim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tim.jpg; sourceTree = "<group>"; };
 		6326FFF91AC82D010094A67C /* BrimoImageCropAndUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrimoImageCropAndUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6326FFFD1AC82D010094A67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6326FFFE1AC82D010094A67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8386615594878F35483AB232 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CD717DC02D519B5AEAD9C6E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +62,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92EEA6D5AC4ACD072961047 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B97AE5EF698D5DB2E9DE817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35E8071C639F57089F855958 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		539E0B4C86BB7BC0B6D3CA30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD717DC02D519B5AEAD9C6E7 /* Pods.debug.xcconfig */,
+				8386615594878F35483AB232 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		632600111AC82D010094A67C /* BrimoImageCropAndUploadTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +106,16 @@
 		6326FFF01AC82D010094A67C = {
 			isa = PBXGroup;
 			children = (
+				632600231AC840070094A67C /* test.h */,
+				632600241AC840070094A67C /* test.m */,
+				632600261AC90A250094A67C /* tim.jpg */,
+				6326001E1AC83A990094A67C /* 1.png */,
 				6326FFFB1AC82D010094A67C /* BrimoImageCropAndUpload */,
 				632600111AC82D010094A67C /* BrimoImageCropAndUploadTests */,
 				6326FFFA1AC82D010094A67C /* Products */,
+				539E0B4C86BB7BC0B6D3CA30 /* Pods */,
+				4B97AE5EF698D5DB2E9DE817 /* Frameworks */,
+				632600221AC840060094A67C /* BrimoImageCropAndUpload-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632600181AC82D010094A67C /* Build configuration list for PBXNativeTarget "BrimoImageCropAndUpload" */;
 			buildPhases = (
+				071E77B09E6DDD0F61D46FE6 /* Check Pods Manifest.lock */,
 				6326FFF51AC82D010094A67C /* Sources */,
 				6326FFF61AC82D010094A67C /* Frameworks */,
 				6326FFF71AC82D010094A67C /* Resources */,
+				47078B7EA9F8D22C88E99057 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,12 +239,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				632600041AC82D010094A67C /* Main.storyboard in Resources */,
+				6326001F1AC83A990094A67C /* 1.png in Resources */,
 				632600091AC82D010094A67C /* LaunchScreen.xib in Resources */,
+				632600271AC90A250094A67C /* tim.jpg in Resources */,
 				632600061AC82D010094A67C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		071E77B09E6DDD0F61D46FE6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47078B7EA9F8D22C88E99057 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6326000A1AC82D010094A67C /* Sources */ = {
@@ -222,6 +296,7 @@
 			files = (
 				632600011AC82D010094A67C /* ViewController.swift in Sources */,
 				6326FFFF1AC82D010094A67C /* AppDelegate.swift in Sources */,
+				632600251AC840070094A67C /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +368,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/David/Desktop/BrimoImageCropAndUpload/BrimoImageCropAndUpload-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -328,27 +404,35 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/David/Desktop/BrimoImageCropAndUpload/BrimoImageCropAndUpload-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		632600191AC82D010094A67C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD717DC02D519B5AEAD9C6E7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrimoImageCropAndUpload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrimoImageCropAndUpload-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6326001A1AC82D010094A67C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8386615594878F35483AB232 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrimoImageCropAndUpload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrimoImageCropAndUpload-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -396,6 +480,7 @@
 				6326001A1AC82D010094A67C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6326001B1AC82D010094A67C /* Build configuration list for PBXNativeTarget "BrimoImageCropAndUploadTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +489,7 @@
 				6326001D1AC82D010094A67C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6326FFF41AC82D010094A67C /* Build configuration list for PBXProject "BrimoImageCropAndUpload" */ = {
 			isa = XCConfigurationList;
